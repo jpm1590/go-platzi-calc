@@ -33,7 +33,7 @@ func (calc calc) operate(in string, operator string) int {
 	}
 }
 
-func readIn() string {
+func ReadIn() string {
 
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
